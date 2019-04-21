@@ -1,0 +1,102 @@
+/*--------------------------------------------------|
+| dTree 2.05 | www.destroydrop.com/javascript/tree/ |
+|---------------------------------------------------|
+| Copyright (c) 2002-2003 Geir Landr              |
+|--------------------------------------------------*/
+
+body {
+	background: #325CC8;
+}
+
+h1 {
+	margin-left: 50px;
+	color: orange;
+}
+
+h3 {
+	margin-left: 50px;
+	line-height: 20px;
+	color: orange;
+}
+
+.node.node-2 {
+	color: red;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.dtree-base {
+	margin-left: 50px;
+	margin-right: 50px;
+	background: white;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+}
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666;
+	white-space: nowrap;
+}
+
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+.dtree a {
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+}
+
+.dtree a.node,
+.dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+
+.dtree a.node:hover,
+.dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+
+.dtree .clip {
+	overflow: hidden;
+}
+
+/* 自定义属性 */
+
+@keyframes anim {
+	25% {
+		color: yellow;
+	}
+
+	50% {
+		color: rgb(233, 12, 214);
+	}
+
+	75% {
+		color: rgb(72, 255, 0);
+	}
+
+	100% {
+		color: rgb(255, 0, 3);
+	}
+}
+
+.anim {
+	animation: anim 2s infinite;
+	-moz-animation: anim 2s infinite;
+	-webkit-animation: anim 2s infinite;
+	-o-animation: anim 2s infinite;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>全国 shp 矢量数据汇总-【帮助】</title>
+    <style>
+        body {
+            margin: 20px;
+            color: black;
+        }
+
+        .question {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .answer {
+            font-size: 18px;
+            margin: 10px 40px;
+        }
+
+        .emphasize {
+            font-weight: bold;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="question">1、如何打开 Shapefile 文件？</div>
+    <div class="answer">
+        Shapefile 是一种通用的矢量数据存储格式，常用的 GIS 软件均支持 Shapefile 文件的加载和显示，推荐使用
+        <div class="emphasize">
+            <a
+                href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=Golbalmapper%E7%A0%B4%E8%A7%A3%E7%89%88%E4%B8%8B%E8%BD%BD&rsv_spt=1&oq=globalmapper%25E4%25B8%258B%25E8%25BD%25BD&rsv_pq=ce1afaf70004cb71&rsv_t=fab3hkgFMm9dBBJCsP2oZ0ebChBFIy29ANpAPW8tWpPw%2B32fbTNeolW3gbuCRpMiNDv4&rqlang=cn&rsv_enter=1&rsv_sug3=40&rsv_sug2=0&inputT=13761&rsv_sug4=13762">GlobalMapper
+            </a>
+        </div>
+        （体积小、加载迅速）、
+        <div class="emphasize">
+            <a
+                href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=arcmap%E7%A0%B4%E8%A7%A3%E7%89%88%E4%B8%8B%E8%BD%BD&rsv_spt=1&oq=Golbalmapper%25E7%25A0%25B4%25E8%25A7%25A3%25E7%2589%2588%25E4%25B8%258B%25E8%25BD%25BD&rsv_pq=db012ca900021f0b&rsv_t=840cmeBTVwDKpoKHg9XmslCFEUigm0sD0vEDle5h52kDZwn%2FaYSmEpCvbRdl28mdR6pU&rqlang=cn&rsv_enter=1&rsv_sug3=6&rsv_sug1=4&rsv_sug7=100&rsv_sug2=0&inputT=2093&rsv_sug4=2093">
+                ArcMap
+            </a>
+        </div>
+        （功能强大，制图美观）
+    </div>
+
+    <div class="question">2、如何在行政区划上显示名称？</div>
+    <div class="answer">
+        以 Arcmap 为例，百度搜索
+        <div class="emphasize">
+            <a href="https://jingyan.baidu.com/article/a3f121e4db995afc9052bb02.html">Arcmap
+                标注要素</a>
+        </div>
+    </div>
+
+    <div class="question">3、如何查看 Shapefile 的经纬度坐标？</div>
+    <div class="answer">
+        针对点状数据，在 Arcmap 中添加经纬度字段，进行几何计算，百度搜索
+        <div class="emphasize">
+            <a href="https://jingyan.baidu.com/article/d5c4b52bee0369da560dc509.html">Arcmap中获取点Shape数据坐标</a>
+        </div>
+    </div>
+    <div class="answer">
+        针对线状、面状数据，可将 Shapefile 文件转换为
+        <div class="emphasize">
+            <a href="http://www.cnblogs.com/Joetao/articles/5846786.html">Geojson、Kml</a>
+        </div>等文本格式格式，GlobalMapper、Arcmap 均支持相应转换
+    </div>
+    <div class="answer">
+        也有在线转换工具，
+        <div class="emphasize">
+            <a href="http://mapshaper.org">
+                mapshaper
+            </a>
+        </div>
+    </div>
+
+    <div class="question">4、数据为什么和我之前的数据边界不吻合？</div>
+    <div class="answer">
+        不同数据来源、不同年份的数据存在差异是很正常的，建议保证数据源、年份一致，例如本博客配套数据
+    </div>
+
+    <div class="question">5、如果对编辑 Shapefile 数据？</div>
+    <div class="answer">
+        百度搜索
+        <div class="emphasize">
+            <a href="https://jingyan.baidu.com/article/90808022fb98dafd91c80f1a.html">
+                arcmap编辑要素
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
